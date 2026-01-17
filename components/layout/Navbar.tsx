@@ -89,12 +89,11 @@ export const Navbar = () => {
           {/* Logo Area */}
           <div className="flex items-center gap-2 relative z-50">
             <a href="#home" className="flex items-center gap-2 group" onClick={(e) => handleLinkClick(e, 'home')}>
-              <div className="w-10 h-10 bg-brand-blue rounded-full border-2 border-black flex items-center justify-center text-white relative overflow-hidden group-hover:rotate-12 transition-transform">
-                {/* Mascot Abstract Face */}
-                <div className="w-2 h-2 bg-white rounded-full absolute top-3 left-2.5"></div>
-                <div className="w-2 h-2 bg-white rounded-full absolute top-3 right-2.5"></div>
-                <div className="w-4 h-2 bg-transparent border-b-2 border-white absolute bottom-3 rounded-full"></div>
-              </div>
+              <img
+                src="/logo/logo.jpg"
+                alt={BRAND.name}
+                className="w-10 h-10 rounded-full border-2 border-black object-cover group-hover:rotate-12 transition-transform"
+              />
               <div className="flex flex-col">
                 <span className="font-display font-bold text-xl leading-none uppercase tracking-tight">{BRAND.name}</span>
                 <span className="text-xs font-bold text-brand-blue leading-none tracking-widest">BALIKPAPAN</span>

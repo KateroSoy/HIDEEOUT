@@ -21,14 +21,14 @@ export const STORE_INFO: StoreInfo = {
 export const CATEGORIES = ['All', 'Cold Press', 'Fresh Juice', 'Smoothies', 'Coffee', 'Food'] as const;
 
 export const MENU_ITEMS: MenuItem[] = [
-  // COLD PRESS
+  // COLD PRESS - All images from DS4c6Nekz7t (Cold Press Juice lineup)
   {
     id: 'cp-1',
     name: 'Cimon',
     category: 'Cold Press',
     description: 'Apple, Lemon, Cinnamon. A warm hug in a cold bottle.',
     price: '35K',
-    image: '/DPxxHMikxT5/2025-10-14_05-17-33_UTC_1.jpg',
+    image: '/DS4c6Nekz7t/2025-12-30_09-09-52_UTC_3.jpg',
     tags: ['Detox', 'Immunity'],
     badge: 'Best Seller'
   },
@@ -38,7 +38,7 @@ export const MENU_ITEMS: MenuItem[] = [
     category: 'Cold Press',
     description: 'Cucumber, Apple, Mint. Instant refresh for hot days.',
     price: '35K',
-    image: '/DPxxHMikxT5/2025-10-14_05-17-33_UTC_2.jpg',
+    image: '/DS4c6Nekz7t/2025-12-30_09-09-52_UTC_4.jpg',
     tags: ['Hydration', 'Green'],
   },
   {
@@ -47,7 +47,7 @@ export const MENU_ITEMS: MenuItem[] = [
     category: 'Cold Press',
     description: 'Pear, Pineapple. Sweet energy release.',
     price: '38K',
-    image: '/DPxxHMikxT5/2025-10-14_05-17-33_UTC_3.jpg',
+    image: '/DS4c6Nekz7t/2025-12-30_09-09-52_UTC_5.jpg',
     tags: ['Energy', 'Sweet'],
   },
   {
@@ -56,7 +56,7 @@ export const MENU_ITEMS: MenuItem[] = [
     category: 'Cold Press',
     description: 'Spinach, Apple, Orange. Drink your greens, happily.',
     price: '38K',
-    image: '/DPxxHMikxT5/2025-10-14_05-17-33_UTC_4.jpg',
+    image: '/DS4c6Nekz7t/2025-12-30_09-09-52_UTC_6.jpg',
     tags: ['Health', 'Veggie'],
   },
 
@@ -67,7 +67,7 @@ export const MENU_ITEMS: MenuItem[] = [
     category: 'Fresh Juice',
     description: 'Strawberry, Orange. Sweet, tart, and totally awake.',
     price: '32K',
-    image: '/DMR_MnBTCA6/2025-07-19_07-30-44_UTC_1.jpg',
+    image: '/DTfFr6TE6iQ/2026-01-14_09-17-20_UTC_2.jpg',
     tags: ['Vitamin C'],
     badge: 'Signature'
   },
@@ -77,7 +77,7 @@ export const MENU_ITEMS: MenuItem[] = [
     category: 'Fresh Juice',
     description: '100% Squeezed Orange. Pure sunshine.',
     price: '30K',
-    image: '/DPxxHMikxT5/2025-10-14_05-17-33_UTC_5.jpg',
+    image: '/DTfFr6TE6iQ/2026-01-14_09-17-20_UTC_1.jpg',
     tags: ['Classic', 'Vit C'],
   },
   {
@@ -86,7 +86,7 @@ export const MENU_ITEMS: MenuItem[] = [
     category: 'Fresh Juice',
     description: 'Watermelon, Lime. The ultimate thirst quencher.',
     price: '28K',
-    image: '/DPxxHMikxT5/2025-10-14_05-17-33_UTC_6.jpg',
+    image: '/DTfFr6TE6iQ/2026-01-14_09-17-20_UTC_4.jpg',
     tags: ['Hydration'],
   },
   {
@@ -104,7 +104,7 @@ export const MENU_ITEMS: MenuItem[] = [
     category: 'Fresh Juice',
     description: 'Carrot, Apple, Citrus. Eye-opening goodness.',
     price: '30K',
-    image: '/DPxxHMikxT5/2025-10-14_05-17-33_UTC_7.jpg',
+    image: '/DTfFr6TE6iQ/2026-01-14_09-17-20_UTC_6.jpg',
     tags: ['Wellness'],
   },
   {
@@ -113,7 +113,7 @@ export const MENU_ITEMS: MenuItem[] = [
     category: 'Fresh Juice',
     description: 'Pineapple, Soda, Mint. Sparkling tropical vibes.',
     price: '28K',
-    image: '/DMR_MnBTCA6/2025-07-19_07-30-44_UTC_3.jpg',
+    image: '/DMR_MnBTCA6/2025-07-19_07-30-44_UTC_5.jpg',
     tags: ['Sparkling', 'Fun'],
   },
 
@@ -124,7 +124,7 @@ export const MENU_ITEMS: MenuItem[] = [
     category: 'Smoothies',
     description: 'Strawberry, Banana, Milk. Creamy pink dreams.',
     price: '38K',
-    image: '/DM7V4lozp8W/2025-08-04_08-57-51_UTC_1.jpg',
+    image: '/DTfFr6TE6iQ/2026-01-14_09-17-20_UTC_3.jpg',
     tags: ['Dairy', 'Filling'],
     badge: 'Kids Love It'
   },
@@ -134,7 +134,7 @@ export const MENU_ITEMS: MenuItem[] = [
     category: 'Smoothies',
     description: 'Banana, Oats, Honey. Breakfast in a cup.',
     price: '35K',
-    image: '/DM7V4lozp8W/2025-08-04_08-57-51_UTC_2.jpg',
+    image: '/DM7V4lozp8W/2025-08-04_08-57-51_UTC_1.jpg',
     tags: ['Meal Replacer'],
   },
   {
@@ -143,7 +143,7 @@ export const MENU_ITEMS: MenuItem[] = [
     category: 'Smoothies',
     description: 'Mango, Yogurt, Ice. Thick, cold, and golden.',
     price: '38K',
-    image: '/DMR_MnBTCA6/2025-07-19_07-30-44_UTC_5.jpg',
+    image: '/DMR_MnBTCA6/2025-07-19_07-30-44_UTC_1.jpg',
     tags: ['Tropical'],
   },
 
@@ -154,7 +154,7 @@ export const MENU_ITEMS: MenuItem[] = [
     category: 'Coffee',
     description: 'Espresso with a hint of cinnamon. Spicy wake up.',
     price: '28K',
-    image: '/DMCzVCWzTmC/2025-07-13_09-58-25_UTC_1.jpg',
+    image: '/DSrmJIJE3gJ/2025-12-25_09-20-26_UTC_1.jpg',
     tags: ['Caffeine', 'Unique'],
   },
   {
@@ -173,7 +173,7 @@ export const MENU_ITEMS: MenuItem[] = [
     category: 'Coffee',
     description: 'Classic iced coffee with palm sugar. Local favorite.',
     price: '25K',
-    image: '/DMCzVCWzTmC/2025-07-13_09-58-25_UTC_2.jpg',
+    image: '/DNkdqBSTWCe/2025-08-20_08-14-37_UTC_1.jpg',
     tags: ['Local', 'Sweet'],
   },
   {
@@ -182,7 +182,7 @@ export const MENU_ITEMS: MenuItem[] = [
     category: 'Coffee',
     description: 'Silky steamed milk over espresso.',
     price: '28K',
-    image: '/DMCzVCWzTmC/2025-07-13_09-58-25_UTC_3.jpg',
+    image: '/DMCzVCWzTmC/2025-07-13_09-58-25_UTC_1.jpg',
     tags: ['Classic'],
   },
 
@@ -193,7 +193,7 @@ export const MENU_ITEMS: MenuItem[] = [
     category: 'Food',
     description: 'Flaky pastry, dark chocolate center. Parisian vibes.',
     price: '25K',
-    image: '/DQOa8tgk6tP/2025-10-25_08-21-51_UTC_2.jpg',
+    image: '/DQ8GdVVkx1g/2025-11-12_02-07-52_UTC_1.jpg',
     tags: ['Sweet', 'Bakery'],
   },
   {
@@ -202,7 +202,7 @@ export const MENU_ITEMS: MenuItem[] = [
     category: 'Food',
     description: 'Moist, dense, homemade style. Perfect with coffee.',
     price: '20K',
-    image: '/DQOa8tgk6tP/2025-10-25_08-21-51_UTC_3.jpg',
+    image: '/DQ8GdVVkx1g/2025-11-12_02-07-52_UTC_2.jpg',
     tags: ['Sweet', 'Snack'],
   },
   {
@@ -211,7 +211,7 @@ export const MENU_ITEMS: MenuItem[] = [
     category: 'Food',
     description: 'Gold, crispy, layered. Pure butter goodness.',
     price: '22K',
-    image: '/DQOa8tgk6tP/2025-10-25_08-21-51_UTC_4.jpg',
+    image: '/DQ8GdVVkx1g/2025-11-12_02-07-52_UTC_5.jpg',
     tags: ['Bakery'],
   },
   {
@@ -220,7 +220,7 @@ export const MENU_ITEMS: MenuItem[] = [
     category: 'Food',
     description: 'Rich chocolate, walnuts, gooey center.',
     price: '25K',
-    image: '/DQOa8tgk6tP/2025-10-25_08-21-51_UTC_5.jpg',
+    image: '/DMCzVCWzTmC/2025-07-13_09-58-25_UTC_5.jpg',
     tags: ['Sweet', 'Cheat Day'],
   },
   {
